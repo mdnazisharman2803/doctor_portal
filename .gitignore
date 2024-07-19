@@ -1,0 +1,9 @@
+backend/backend/__pycache__
+backend/documents
+backend/server/__pycache__
+backend/server/migrations/__pycache__
+backend/.env
+dem_env
+frontend/src/env.js
+frontend/node_modules
+frontend/build

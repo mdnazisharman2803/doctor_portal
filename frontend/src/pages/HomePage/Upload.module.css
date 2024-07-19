@@ -1,0 +1,67 @@
+/* Upload.module.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.topLeftLink {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.linkButton {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.linkButton:hover {
+    background-color: #0056b3;
+}
+
+.uploadForm {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.uploadForm p {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.uploadForm form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.uploadForm input[type="file"] {
+    margin-bottom: 10px;
+}
+
+.uploadForm button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.uploadForm button[type="submit"]:hover {
+    background-color: #218838;
+}
